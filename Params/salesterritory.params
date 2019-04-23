@@ -1,0 +1,12 @@
+####### salesterritory ##########
+
+table_name="salesterritory"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### salesterritory ends ##########
+####### salesterritory ##########
+
+table_name="salesterritory"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### salesterritory ends ##########

@@ -1,0 +1,38 @@
+create view view_salesorderheader as
+	select
+	SalesOrderID,          
+	RevisionNumber,        
+	OrderDate,             
+	DueDate,               
+	ShipDate,              
+	Status,                
+	OnlineOrderFlag,       
+	SalesOrderNumber,      
+	PurchaseOrderNumber,   
+	AccountNumber,         
+	so.CustomerID,            
+	ContactID,           
+	BillToAddressID,       
+	ShipToAddressID,       
+	ShipMethodID,          
+	CreditCardID,          
+	CreditCardApprovalCode,
+	so.CurrencyRateID,        
+	SubTotal,              
+	TaxAmt,                
+	Freight,               
+	TotalDue,              
+	Comment,              
+	so.SalesPersonID, 
+	sp.TerritoryID,
+	st.name territory,
+	st.CountryRegionCode,
+	'st.group',
+	cr.FromCurrencyCode,
+	cr.toCurrencyCode,
+	cr.AverageRate,
+	cr.EndOfDayRate,
+	so.ModifiedDate         
+from salesorderheader so left join salesperson sp on sp.SalesPersonID = so.SalesPersonID
+left join salesterritory st ON st.TerritoryID = sp.TerritoryID
+left join currencyrate cr on cr.CurrencyRateID = so.CurrencyRateID; 

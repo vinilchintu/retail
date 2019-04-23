@@ -1,0 +1,227 @@
+######## culture ########
+
+table_name="culture"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+###### culture params end ###########
+
+
+
+
+####### shift #########
+
+table_name="shift"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+
+###### shift params end #########
+
+
+
+###### shipmethod ##########
+
+table_name="shipmethod"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+###### shipmethod params end #######
+
+
+
+##### v_salesorderheader ######
+
+table_name="v_salesorderheader"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+##### v_salesorderheader ends ########
+
+
+
+##### v_salesorderdetails ######
+
+table_name="v_salesorderdetails"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+##### v_salesorderdetails ends ########
+
+
+
+###### v_product #########
+
+table_name="v_product"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+###### v_product ends #########
+
+
+
+####### v_customer ##########
+
+table_name="v_customer"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### v_customer ends ##########
+
+
+
+####### creditcard ##########
+
+table_name="creditcard"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### creditcard ends ##########
+
+###### salesorderheader #########
+
+table_name="salesorderheader"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+###### salesorderheader ends #########
+
+
+
+####### salesperson ##########
+
+table_name="salesperson"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### salesperson ends ##########
+
+
+
+####### salesterritory ##########
+
+table_name="salesterritory"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### salesterritory ends ##########
+
+
+
+####### currencyrate ##########
+
+table_name="currencyrate"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### currencyrate ends ##########
+
+
+
+
+####### salesorderdetail ##########
+
+table_name="salesorderdetail"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+mapcolumn=rowguid
+
+####### salesorderdetail ends ##########
+
+
+
+####### specialoffer ##########
+
+table_name="specialoffer"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+mapcolumn=rowguid
+
+####### specialoffer ends ##########
+
+
+
+
+####### productsubcategory ##########
+
+table_name="productsubcategory"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### productsubcategory ends ##########
+
+
+
+
+####### productcategory ##########
+
+table_name="productcategory"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### productcategory ends ##########
+
+
+
+
+####### productmodel ##########
+
+table_name="productmodel"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### productmodel ends ##########
+
+
+
+
+
+####### customer ##########
+
+table_name="customer"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### customer ends ##########
+
+
+
+
+####### individual ##########
+
+table_name="individual"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### individual ends ##########
+
+
+
+
+####### contact ##########
+
+table_name="contact"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+mapcolumn=rowguid
+
+####### contact ends ##########
+
+
+
+
+####### salesterritory ##########
+
+table_name="salesterritory"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### salesterritory ends ##########
+
+
+####### store ##########
+
+table_name="store"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### store ends ##########
+
+
+####### storecontact ##########
+
+#table_name="storecontact"
+#target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+
+####### storecontact ends ##########
+
+
+
+####### product ##########
+
+table_name="product"
+target_dir="/user/cloudera/bigretail/output/stores/sqoop"
+mapcolumn=rowguid
+
+####### product ends ##########
+
+
+
